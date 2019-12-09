@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+<title>Password validation</title>
+<script src="code.js"></script>
+</head>
+<body>
+<p>Enter Password</p>
+<ul><!--this list tag is used to show the user the requirment for a good password-->
+    <li>Must be 10 to 15 characters long</li>
+    <li>Must contain at least one numeric digit</li>
+    <li>Must contain one uppercase and one lowercase letter</li>
+</ul>
+<form name="form1" action="#"><!--this creates an input box-->
+<input type='text' name='text1'/><!--this assigns the input a type and name-->
+<input type="submit" name="submit" value="Submit" onclick="varify(document.form1.text1)"/><!--this is like the button that is used to get the result-->
+</form>
+</body>
